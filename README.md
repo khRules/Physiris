@@ -4,6 +4,8 @@
 
 ## 概要
 
+![機器の設置](20230728_2215.png) 
+
 Physirisは身体運動で操作するテトリス風ゲームです。
 
 ## 必要システム環境
@@ -25,7 +27,7 @@ YOLOv8（Python用パッケージultralytics）
 Python 3を導入します。
 
 Python用パッケージopencv-python、pygame、ultralyticsを導入します（例　コマンドラインシェルにて命令「pip install (Python用パッケージの名前)」を発行します）。但し、パッケージultralyticsに
-はYOLOv8以外にも様々なライブラリーが含まれますが、今回必要なものはYOLOv8のみですので、パッケージultralyticsを導入する代わりに、YOLOv8に関するGitHubのページ（https://github.com/ultralytics/ultralytics）に掲載されているファイルを、Physirisの本体であるファイル「physiris.py」と同じディレクトリーに配置しても構いません。その場合には、YOLOv8に関するGitHubのページから入手したファイル「requirements.txt」に記載されているPython用パッケージを導入する必要があります（例　コマンドラインシェルにて命令「pip install -r requirements.txt」を発行します）。
+はYOLOv8以外にも様々なライブラリーが含まれますが、今回必要なものはYOLOv8のみですので、パッケージultralyticsを導入する代わりに、YOLOv8に関するGitHubのページ（ https://github.com/ultralytics/ultralytics ）に掲載されているファイルを、Physirisの本体であるファイル「physiris.py」と同じディレクトリーに配置しても構いません。その場合には、YOLOv8に関するGitHubのページから入手したファイル「requirements.txt」に記載されているPython用パッケージを導入する必要があります（例　コマンドラインシェルにて命令「pip install -r requirements.txt」を発行します）。
 
 YOLOv8用のモデルyolov8n（ファイル「yolov8n.pt」）が別途必要になります。通常は最初にPhysiris（あるいはYOLOv8）を実行するときに自動的にインターネット経由にてダウンロードされますが、代わりに事前にインターネット経由にて https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8n.pt からダウンロードし、それによって得られたファイル「yolov8n.pt」をPhysirisの本体であるファイル「physiris.py」と同じディレクトリーに配置しても構いません。
 
